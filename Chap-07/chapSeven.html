@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <title>Eliminating ambiguity</title>
 </head>
-<body>
-    
 
+<body id="chap-body">
+    <div id="chap-container">
+        <h1 id="chap-h1">Chapter#07 <span class="main-heading">Math expressions: Eliminating ambiguity</span> </h1>
+        <ul class="theory">
+            <li>
+                var num = 1 + 2 * 7; <br>
+                Result: num = 15; <br> <br>
+            </li>
+            <li>
+                var num2 = (1 + 2) * 7; <br>
+                Result: num2 = 21; <br> <br>
+            </li>
+            <li>
+                var num3 = 1 + (2 * 7); <br>
+                Result: num3 = 15; <br> <br>
+            </li>
+            <li>
+                var num4 = (2 + 8) * ( 9 + 5); <br>
+                Result: num4 = 140; <br> <br>
+            </li>
+            <li>
+                var num5 = 2 + 8 * 9 + 5; <br>
+                Result: num5 = 79 ; <br> <br>
+            </li>
+            <li>
+                var num6 = ((2 + 8) * 9) + 5; <br>
+                Result: num6 = 95; <br> <br>
+            </li>
+        </ul>
+    </div>
 
     <script src="chapSeven.js"></script>
 </body>
+
 </html>
