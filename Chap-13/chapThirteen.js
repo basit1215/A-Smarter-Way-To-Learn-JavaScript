@@ -71,3 +71,24 @@ console.log(checkDataTypr);
 
 var userInp = prompt("Enter your name:") || "Not provided";
 console.log(userInp);
+
+//    In JS every value is Boolean value (true/false).
+// 1st method to find boolean value.
+
+console.log(!!"Basit");
+
+// 2nd method to find boolean value...
+// type Boolean Value...
+// ! change the type, true ko false / false ko true...
+
+
+console.log(Boolean(!"Basit"));
+console.log(Boolean("Basit"));
+console.log(Boolean(undefined));
+console.log(Boolean(!undefined));
+console.log(Boolean(null));
+console.log(Boolean(!null));
+console.log(Boolean(false));
+console.log(Boolean(0));
+console.log(Boolean(""));
+console.log(Boolean(NaN));

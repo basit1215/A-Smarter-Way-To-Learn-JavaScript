@@ -5,5 +5,3 @@
  else{
     alert("Not Eligible this Course");
  }
-
- 
