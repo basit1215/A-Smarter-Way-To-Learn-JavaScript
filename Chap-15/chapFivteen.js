@@ -10,6 +10,10 @@ console.log(mixArray);
 console.log(mixArray[0]);
 console.log(mixArray[2]);
 
+var stds = ["basit", "ali", "hashir", "hassan"];
+console.log(stds);
+stds[stds.length] = "ghous"
+console.log(stds);
 
 
 
